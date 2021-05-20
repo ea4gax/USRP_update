@@ -11,12 +11,12 @@ sudo rm -rf tmp
 git clone https://github.com/ds5qdr/USRP_update.git tmp
 
 echo copy USRP dmr_status 
-sudo chmod +x tmp/USRP tmp/dmr_status tmp/start_usrp tmp/upgrade_usrp
+sudo chmod +x tmp/USRP tmp/dmr_status tmp/usrp_start tmp/usrp_upgrade
 sudo chown pi:pi *
 sudo mv -u tmp/USRP           .
 sudo mv -u tmp/dmr_status     .
 sudo mv -u tmp/dmr_status.txt .
-sudo mv -u tmp/start_usrp   /home/pi
+sudo mv -u tmp/usrp_start   /home/pi
 sudo mv -u tmp/upgrade_usrp /home/pi
 sudo mv -u tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
 sudo chown pi:pi *
@@ -35,4 +35,4 @@ echo dmr_status killed
 
 echo
 echo restart USRP
-./USRP
+/home/pi/usrp_start
