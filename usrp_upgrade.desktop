@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=USRP UPGEADE
+Name=USRP UPGRADE
 Path=/home/pi/
 Exec=/home/pi/usrp_upgrade
 Terminal=false
