@@ -8,6 +8,7 @@ echo
 echo download USRP from github
 cd /home/pi/USRP
 sudo rm -rf tmp
+sudo mv /home/pi/dvpi/dvpi /home/pi/dvpi/dvpi_usrp
 git clone https://github.com/ds5qdr/USRP_update.git tmp
 
 echo
