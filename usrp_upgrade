@@ -16,15 +16,21 @@ sudo chown pi:pi *
 sudo mv -u tmp/USRP           .
 sudo mv -u tmp/dmr_status     .
 sudo mv -u tmp/dmr_status.txt .
-<<<<<<< HEAD
+sudo chown pi:pi *
 sudo mv -u tmp/usrp_start   /home/pi/
 sudo mv -u tmp/upgrade_usrp /home/pi/
 sudo mv -u tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
-sudo chown pi:pi *
+sudo mv -u tmp/*.jpg        /home/pi/Desktop/
+sudo mv -u tmp/*.desktop    /home/pi/Desktop/
 
 echo
 echo remove tmp directory
 sudo rm -rf tmp
+
+echo
+echo change own
+cd /home/pi
+sudo chown pi:pi *
 
 echo
 echo kill USRP & dmr_status
