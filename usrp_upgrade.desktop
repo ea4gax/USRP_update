@@ -5,5 +5,5 @@ Name=USRP UPGEADE
 Path=/home/pi/
 Exec=/home/pi/usrp_upgrade
 Terminal=false
-Icon=/home/pi/Desktop/upgrade_usrp.jpg
+Icon=/home/pi/upgrade_usrp.jpg
 
