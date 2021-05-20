@@ -4,11 +4,13 @@ SCRIPT_AUTHOR="DS5QDR Lee, Heonmin"                  #
 SCRIPT_DATE="20/05/2021"                             #
 ######################################################
 
+echo
 echo download USRP from github
 cd /home/pi/USRP
 sudo rm -rf tmp
 git clone https://github.com/ds5qdr/USRP_update.git tmp
 
+echo
 echo copy USRP dmr_status
 sudo chmod +x tmp/USRP tmp/dmr_status tmp/usrp_start tmp/usrp_upgrade
 sudo chown pi:pi *
@@ -27,7 +29,7 @@ echo remove tmp directory
 sudo rm -rf tmp
 
 echo
-echo change own
+echo change ownership
 cd /home/pi
 sudo chown pi:pi *
 
