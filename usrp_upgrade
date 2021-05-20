@@ -19,7 +19,7 @@ sudo chown pi:pi *
 sudo mv -u tmp/usrp_start   /home/pi/
 sudo mv -u tmp/usrp_upgrade /home/pi/
 sudo mv -u tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
-sudo mv -u tmp/*.jpg        /home/pi/Desktop/
+sudo mv -u tmp/*.jpg        /home/pi/
 sudo mv -u tmp/*.desktop    /home/pi/Desktop/
 
 echo
