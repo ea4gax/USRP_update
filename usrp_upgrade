@@ -12,15 +12,15 @@ git clone https://github.com/ds5qdr/USRP_update.git tmp
 echo copy USRP dmr_status
 sudo chmod +x tmp/USRP tmp/dmr_status tmp/usrp_start tmp/usrp_upgrade
 sudo chown pi:pi *
-sudo mv -u tmp/USRP           .
-sudo mv -u tmp/dmr_status     .
-sudo mv -u tmp/dmr_status.txt .
+sudo mv  tmp/USRP           .
+sudo mv  tmp/dmr_status     .
+sudo mv  tmp/dmr_status.txt .
 sudo chown pi:pi *
-sudo mv -u tmp/usrp_start   /home/pi/
-sudo mv -u tmp/usrp_upgrade /home/pi/
-sudo mv -u tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
-sudo mv -u tmp/*.jpg        /home/pi/Desktop/
-sudo mv -u tmp/*.desktop    /home/pi/Desktop/
+sudo mv  tmp/usrp_start   /home/pi/
+sudo mv  tmp/upgrade_usrp /home/pi/
+sudo mv  tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
+sudo mv  tmp/*.jpg        /home/pi/
+sudo mv  tmp/*.desktop    /home/pi/Desktop/
 
 echo
 echo remove tmp directory
