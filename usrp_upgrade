@@ -5,7 +5,6 @@ SCRIPT_DATE="20/05/2021"                             #
 ######################################################
 
 echo download USRP from github
-cls
 cd /home/pi/USRP
 sudo rm -rf tmp
 git clone https://github.com/ds5qdr/USRP_update.git tmp
@@ -18,7 +17,7 @@ sudo mv -u tmp/dmr_status     .
 sudo mv -u tmp/dmr_status.txt .
 sudo chown pi:pi *
 sudo mv -u tmp/usrp_start   /home/pi/
-sudo mv -u tmp/upgrade_usrp /home/pi/
+sudo mv -u tmp/usrp_upgrade /home/pi/
 sudo mv -u tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
 sudo mv -u tmp/*.jpg        /home/pi/Desktop/
 sudo mv -u tmp/*.desktop    /home/pi/Desktop/
