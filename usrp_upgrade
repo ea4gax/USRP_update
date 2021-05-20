@@ -10,7 +10,7 @@ cd /home/pi/USRP
 sudo rm -rf tmp
 git clone https://github.com/ds5qdr/USRP_update.git tmp
 
-echo copy USRP dmr_status 
+echo copy USRP dmr_status
 sudo chmod +x tmp/USRP tmp/dmr_status tmp/usrp_start tmp/usrp_upgrade
 sudo chown pi:pi *
 sudo mv -u tmp/USRP           .
@@ -43,4 +43,3 @@ echo dmr_status killed
 echo
 echo restart USRP
 /home/pi/usrp_start
-
