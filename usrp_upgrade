@@ -19,10 +19,6 @@ sudo mv -u tmp/dmr_status.txt .
 <<<<<<< HEAD
 sudo mv -u tmp/usrp_start   /home/pi/
 sudo mv -u tmp/upgrade_usrp /home/pi/
-=======
-sudo mv -u tmp/usrp_start   /home/pi
-sudo mv -u tmp/upgrade_usrp /home/pi
->>>>>>> cc2e39492dc4359f984e8812b49ce157652680c8
 sudo mv -u tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
 sudo chown pi:pi *
 
@@ -40,8 +36,5 @@ echo dmr_status killed
 
 echo
 echo restart USRP
-<<<<<<< HEAD
 /home/pi/usrp_start
-=======
-/home/pi/usrp_start
->>>>>>> cc2e39492dc4359f984e8812b49ce157652680c8
+
