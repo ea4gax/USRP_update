@@ -1,7 +1,7 @@
 ######################################################
 SCRIPT_VERSION="Start USRP V1.00"                    #
 SCRIPT_AUTHOR="DS5QDR Lee, Heonmin"                  #
-SCRIPT_DATE="19/05/2021"                             #
+SCRIPT_DATE="05/19/2021"                             #
 ######################################################
 
 cd /home/pi/USRP
