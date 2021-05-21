@@ -1,7 +1,7 @@
 ######################################################
 SCRIPT_VERSION="upgrade USRP V0.99"                  #
 SCRIPT_AUTHOR="DS5QDR Lee, Heonmin"                  #
-SCRIPT_DATE="20/05/2021"                             #
+SCRIPT_DATE="05/20/2021"                             #
 ######################################################
 
 echo
