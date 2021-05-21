@@ -4,8 +4,9 @@ SCRIPT_AUTHOR="DS5QDR Lee, Heonmin"                  #
 SCRIPT_DATE="05/21/2021"                             #
 ######################################################
 
-echo
+eche
 echo download USRP from github
+clear
 cd /home/pi/
 sudo rm -rf USRP
 sudo mv /home/pi/dvpi/dvpi /home/pi/dvpi/dvpi_go
