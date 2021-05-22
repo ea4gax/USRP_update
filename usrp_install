@@ -22,9 +22,13 @@ sudo mv usrp_upgrade /home/pi/
 sudo mv autostart    /etc/xdg/lxsession/LXDE-pi/
 sudo mv *.jpg        /home/pi/
 sudo mv *.desktop    /home/pi/Desktop/
+sudo mv config.txt   /boot/
 sudo mv usrp_install /home/pi/
 sudo rm README.md
 
 echo
-echo start USRP
-/home/pi/usrp_start
+echo reboot USRP
+sudo reboot
+
+# echo start USRP
+# /home/pi/usrp_start
