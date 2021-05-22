@@ -27,5 +27,8 @@ sudo mv usrp_install /home/pi/
 sudo rm README.md
 
 echo
-echo start USRP
-/home/pi/usrp_start
+echo reboot USRP
+sudo reboot
+
+# echo start USRP
+# /home/pi/usrp_start
