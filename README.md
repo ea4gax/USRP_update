@@ -13,6 +13,8 @@ connect to your RPi and then execute below command one by one
   ./usrp_install 
   
 
+
+
 How to update :
   at click 'Control' tab of USRP, click 'Upgrade USRP' button!
 
