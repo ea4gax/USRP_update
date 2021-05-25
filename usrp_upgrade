@@ -37,7 +37,7 @@ sudo chown pi:pi *
 
 echo
 echo kill USRP & dmr_status
-sudo kill `ps -ef | grep "USRP" | grep -v 'grep' | awk '{print $2}'` 
+sudo kill `ps -ef | grep "USRP"       | grep -v 'grep' | awk '{print $2}'` 
 echo USRP killed
 echo
 sudo kill `ps -ef | grep "dmr_status" | grep -v 'grep' | awk '{print $2}'` 
