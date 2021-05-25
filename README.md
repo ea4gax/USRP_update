@@ -2,8 +2,8 @@
 on-line update USRP
 This github is created for download USRP Program from Github to USRP system (Raspberry).
 
-How to install :
-connect to your RPi and then execute below command one by one
+# How to install 
+  connect to your RPi and then execute below command one by one
 
   git clone https://github.com/ds5qdr/upgrade_files temp  
   sudo mv temp/usrp_install /home/pi/  
@@ -14,9 +14,8 @@ connect to your RPi and then execute below command one by one
   
 
 
-
-How to update :
-  at click 'Control' tab of USRP, click 'Upgrade USRP' button!
+# How to update
+  click 'Control' tab of USRP, click 'Upgrade USRP' button!
 
 
 That's OK!
