@@ -18,7 +18,7 @@ This github is created for download USRP Program from Github to USRP system (Ras
   click 'Control' tab of USRP, click 'Upgrade USRP' button!
 
 
-That's OK!
+That's all!
 
 
 DS5QDR Lee, Heonmin
