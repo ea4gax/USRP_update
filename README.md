@@ -21,6 +21,11 @@ connect to your RPi and then execute below command one by one
   
   
   
+  
+  
+  
+  
+  
 
 How to update :
 
