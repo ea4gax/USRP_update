@@ -4,6 +4,7 @@ This github is created for download USRP Program from Github to USRP system (Ras
 
 How to install :
 connect to your RPi and then execute below command one by one
+
   git clone https://github.com/ds5qdr/upgrade_files temp  
   sudo mv temp/usrp_install /home/pi/  
   sudo rm -rf temp  
