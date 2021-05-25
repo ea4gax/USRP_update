@@ -6,24 +6,12 @@ How to install :
 
 connect to your RPi and then execute below command one by one
 
-  git clone https://github.com/ds5qdr/upgrade_files temp
-  
-  sudo mv temp/usrp_install /home/pi/
-  
-  sudo rm -rf temp
-  
-  cd /home/pi/
-  
-  sudo chmod +x usrp_install
-  
-  ./usrp_install
-  
-  
-  
-  
-  
-  
-  
+  git clone https://github.com/ds5qdr/upgrade_files temp  
+  sudo mv temp/usrp_install /home/pi/  
+  sudo rm -rf temp  
+  cd /home/pi/  
+  sudo chmod +x usrp_install  
+  ./usrp_install 
   
 
 How to update :
