@@ -9,7 +9,6 @@ echo download USRP from github
 clear
 cd /home/pi/USRP
 sudo rm -rf tmp
-sudo rm /home/pi/USRP/dmr_status*
 sudo mv /home/pi/dvpi/dvpi /home/pi/dvpi/dvpi_usrp
 git clone https://github.com/ds5qdr/USRP_update.git tmp
 
@@ -20,14 +19,10 @@ sudo chown pi:pi *
 sudo mv  tmp/USRP           .
 sudo chown pi:pi *
 sudo mv  tmp/usrp_start   /home/pi/
-sudo mv  tmp/upgrade_usrp /home/pi/
+sudo mv  tmp/usrp_upgrade /home/pi/
 sudo mv  tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
 sudo mv  tmp/*.jpg        /home/pi/
 sudo mv  tmp/*.desktop    /home/pi/Desktop/
-
-echo
-echo remove tmp directory
-sudo rm -rf tmp
 
 echo
 echo change ownership
@@ -38,6 +33,11 @@ echo
 echo kill USRP
 sudo kill `ps -ef | grep "USRP"       | grep -v 'grep' | awk '{print $2}'` 
 echo USRP killed
+
+echo
+echo remove tmp directory and dmr_status*
+sudo rm -rf tmp
+sudo rm /home/pi/USRP/dmr_status*
 
 echo
 echo restart USRP
