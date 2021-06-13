@@ -24,6 +24,12 @@ sudo mv tmp/*.jpg        /home/pi/
 sudo mv tmp/*.desktop    /home/pi/Desktop/
 
 echo
+echo remove tmp directory and dmr_status*
+sudo rm -rf tmp
+sudo rm /home/pi/USRP/dmr_status*
+sudo mv /home/pi/dvpi/dvpi /home/pi/dvpi/dvpi_usrp
+
+echo
 echo change ownership
 cd /home/pi
 sudo chown pi:pi *
@@ -32,12 +38,6 @@ echo
 echo kill USRP
 sudo kill `ps -ef | grep "USRP" | grep -v 'grep' | awk '{print $2}'` 
 echo USRP killed
-
-echo
-echo remove tmp directory and dmr_status*
-sudo rm -rf tmp
-sudo rm /home/pi/USRP/dmr_status*
-sudo mv /home/pi/dvpi/dvpi /home/pi/dvpi/dvpi_usrp
 
 echo
 echo restart USRP
