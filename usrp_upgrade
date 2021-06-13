@@ -12,10 +12,11 @@ sudo rm -rf /home/pi/USRP/tmp
 git clone https://github.com/ds5qdr/USRP_update.git tmp
 
 echo
-echo copy USRP dmr_status
+echo copy USRP 
 sudo chmod +x tmp/USRP tmp/usrp_start tmp/usrp_upgrade
 sudo chown pi:pi *
 sudo mv tmp/USRP .
+sudo mv tmp/user_d.csv .
 sudo mv tmp/usrp_start   /home/pi/
 sudo mv tmp/usrp_upgrade /home/pi/
 sudo mv tmp/autostart    /etc/xdg/lxsession/LXDE-pi/
