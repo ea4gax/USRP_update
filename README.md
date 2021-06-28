@@ -11,11 +11,14 @@ This github is created for download USRP Program from Github to USRP system (Ras
   cd /home/pi/  
   sudo chmod +x usrp_install  
   ./usrp_install 
-  
 
 
 # How to update
   click 'Control' tab of USRP, click 'Upgrade USRP' button!
+
+# Warning
+  Don't install Pulseaudio, it makes R2D2 at Rx
+  Pyaudio is the Best audio quality
 
 
 That's all!
