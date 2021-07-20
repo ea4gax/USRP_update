@@ -18,6 +18,7 @@ This github is created for download USRP Program from Github to USRP system (Ras
 
 # Warning
   Don't install Pulseaudio, it makes R2D2 at Rx/Tx
+  
   Pyaudio is the Best audio quality
   
  
