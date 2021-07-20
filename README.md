@@ -1,4 +1,4 @@
-# USRP_Install_Update
+# USRP_Install_Update for Linux
 on-line update USRP
 This github is created for download USRP Program from Github to USRP system (Raspberry).
 
